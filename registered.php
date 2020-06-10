@@ -28,7 +28,7 @@ if (isset($_POST['register-user']))
 
     $server = "localhost";
     $user = "root";
-    $pass = "xmen1000";
+    $pass = "";
     $dbname = "savefate";
     $conn = new mysqli($server, $user, $pass, $dbname);
 
